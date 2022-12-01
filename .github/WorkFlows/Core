@@ -1,1 +1,9 @@
+ public class Clinic_AssistantController : ControllerBase
+    {
+        private readonly IClinic_AssistantService _clinic_AssistantService;
+
+        public Clinic_AssistantController(IClinic_AssistantService clinic_AssistantService )
+        {
+           _clinic_AssistantService = clinic_AssistantService;
+        }
 
